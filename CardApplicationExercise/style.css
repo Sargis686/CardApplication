@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    height: 500px;
+
+}
+
+.bottons {
+    width: 80%;
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 100;
+    border: 1px solid black;
+    text-indent: 50px;
+
+}
+
+
+
+
+
+
+#addCard,
+#sortCard {
+    border: 1px solid black;
+    background-color: initial;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 4px;
+
+}
+
+
+.footer {
+    background-color: aqua;
+    width: 80%;
+    height: 20px;
+    /* position: fixed; */
+    position: relative;
+    left: 0;
+    /* top: 180px; */
+    bottom: 453px;
+    border: 1px solid black;
+}
+
+#output {
+    position: relative;
+    bottom: 440px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+
+
+/* texna vortex galis en box-ery */
+}
+
+.main-instructions {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.instructions {
+
+    width: 20%;
+    height: 495px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    margin: 20px;
+    height: 250px;
+    background-color: grey;
+    color: white;
+
+}
+
+.remove-button {
+    display: flex;
+    position: relative;
+    right: 150px;
+    bottom: 100px;
+}
